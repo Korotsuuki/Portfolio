@@ -1,0 +1,52 @@
+[
+    {
+        "id":1,
+        "title":"Ohmyfood",
+        "description":"Intégration d'un site web pour un restaurant. Mise en place d'animations CSS légères et fluides.",
+        "resume":"Intégration d'un site web pour un restaurant.",
+        "technologies":["HTML","Sass","Figma","GitHub"],
+        "image":,
+        "github":"https://github.com/Korotsuuki/OpenclassroomsProjectOhmyfood",
+        "link":"https://korotsuuki.github.io/OpenclassroomsProjectOhmyfood/",
+    }
+    {
+        "id":2,
+        "title":"Sophie Bluel",
+        "description":"Premier site web réalisé avec JavaScript à partir d'une maquette figma.Des appels à l'API permet la connexion de l'utilisation pour accéder à un espace administrateur pour permettre d'ajouter ou de supprimer un projet. ",
+        "resume":"Site web en JavaScript avec appels API.",
+        "technologies":["HTML","CSS","JavaScript","API","Figma","GitHub"],
+        "image":,
+        "github":"https://github.com/Korotsuuki/OpenclassroomsProjectSophieBluel",
+        "link":"https://korotsuuki.github.io/OpenclassroomsProjectSophieBluel/FrontEnd/index.html",
+    }
+    {
+        "id":3,
+        "title":"Kasa",
+        "description":"Premier projet avec React avec des composants réutilisables avec des props, J'ai utilisé Vite comme bundle. Intégration a partir de la maquette Figma.",
+        "resume":"Site web avec React.",
+        "technologies":["HTML","Sass","React","API","Figma","GitHub"],
+        "image":,
+        "github":"https://github.com/Korotsuuki/OpenclassroomsProjectKasa",
+        "link":,
+    }
+    {
+        "id":4,
+        "title":"Nina Carducci",
+        "description":"Optimisation d'un site web sur les performances et sur le SEO, ajout de meta donnée.",
+        "resume":"OptiOptimisation d'un site web.",
+        "technologies":["HTML","CSS","SEO","JavaScript","Figma","GitHub"],
+        "image":,
+        "github":"https://github.com/Korotsuuki/OpenclassroomsProjectNina",
+        "link":"https://korotsuuki.github.io/OpenclassroomsProjectNina/",
+    }
+    {
+        "id":5,
+        "title":"Argent Bank",
+        "description":"Création d'un site web React en transformant les maquettes HTML en composants React, utilisation de Redux pour une meilleure fluidité et réduction des appels réseau. Préparation d'un document Swagger pour les prochaines fonctionnalités.",
+        "resume":"Site web React avec Redux",
+        "technologies":["HTML","Sass","CSS","React","Redux","SEO","API","Figma","GitHub"],
+        "image":,
+        "github":"https://github.com/Korotsuuki/OpenclassroomsProjectArgentBank",
+        "link":"https://korotsuuki.github.io/OpenclassroomsProjectArgentBank/",
+    }
+]

@@ -1,0 +1,46 @@
+.navigation {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0;
+      @media screen and (max-width: 1024px) {
+        justify-content: space-around;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        font-family: Montserrat;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: bold;
+        margin-right: 50px;
+        cursor: pointer;
+        @media screen and (max-width: 768px) {
+          font-size: 0.8rem;
+          text-transform: uppercase;
+          margin-right: 20px;
+        }
+        &.nav-underline {
+          text-decoration-line: underline;
+        }
+      }
+      button {
+        width: fit-content;
+        margin-left: 20px;
+        padding: 5px 15px;
+        color: white;
+        list-style: none;
+        font-size: 36px;
+        background-color: black;
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover {
+          background-color: black;
+          transform: scale(1.1);
+          color: white;
+        }
+      }
+    }
+}

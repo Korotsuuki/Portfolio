@@ -1,0 +1,30 @@
+footer{
+    display: flex;
+    gap: 20px;
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    p{
+      color: white;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      &:hover{
+        color: #757575;
+      }
+    }
+}
+  
+  @media only screen and (max-width: 768px) {
+    footer{
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
+      p{
+        text-align: center;
+      }
+    }
+}
