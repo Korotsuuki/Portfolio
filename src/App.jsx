@@ -9,7 +9,7 @@ import Footer from "./components/Footer/Footer.jsx"
 
 
 function App() {
-  const basename = import.meta.env.MODE === "production" ? "/portfolio" : "" ;
+  const basename = import.meta.env.MODE === "production" ? "/Portfolio" : "" ;
   return (
     <BrowserRouter basename={basename}>
       <GradientCircle />
