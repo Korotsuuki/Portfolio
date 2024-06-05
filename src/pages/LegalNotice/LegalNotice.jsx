@@ -15,7 +15,7 @@ function LegalNotice() {
       <h2>Edition du site</h2>
       <p>
         Le présent site, accessible à l&apos;URL
-        https://Korotsuuki.github.io/portfolio/, est édité par : Michel Garcia.
+        https://Korotsuuki.github.io/portfolio/, est édité par : Benoît Diacre.
       </p>
       <h2>Hébergement</h2>
       <p>
@@ -23,10 +23,10 @@ function LegalNotice() {
         https://support.github.com/request).
       </p>
       <h2>Directeur de publication</h2>
-      <p>Le Directeur de la publication du Site est Michel Garcia.</p>
+      <p>Le Directeur de la publication du Site est Benoît Diacre.</p>
       <h2>Nous contacter</h2>
       <p>
-        Vous pouvez nous contacter directement en passant par le formulaire de
+        Vous pouvez nous contacter directement en passant par le mail de
         contact en page d&apos;accueil.
       </p>
     </div>

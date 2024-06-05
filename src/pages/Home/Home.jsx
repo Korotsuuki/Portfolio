@@ -9,6 +9,8 @@ import { FaSass } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { LiaFigma } from "react-icons/lia";
 import { TbSeo } from "react-icons/tb";
+import Projects from '../../components/Projects/Projects.jsx';
+import About from '../../components/About/About.jsx';
 
 function Home() {
   return (
@@ -40,6 +42,8 @@ function Home() {
             </Link>
             </div>
         </div>
+        <Projects/>
+        <About/>
     </section>
   )
 }

@@ -1,0 +1,31 @@
+.gallery_title {
+    h1{
+        color: white;
+        font-size: 2rem;
+    }
+    .gallery{
+        width: 100%;
+        border-radius: 25px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(3,28%);
+        grid-template-rows: auto;
+        gap: 50px;
+        padding: 50px 0;
+        margin: 0 auto;
+        max-width: 1240px;
+        @media screen and (max-width:1024px) {
+            grid-template-columns: repeat(2,45%);
+        
+        }
+        @media screen and (max-width:768px) {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 0 0;
+            margin-bottom: 25px;
+            background: none;
+        }
+    }
+}
